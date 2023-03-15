@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.header{
+    text-align: right;
+    background-image:linear-gradient(to bottom,rgba(152, 205, 234, 0.8),rgb(0 0 0/00)),url(photos/background.jpg);
+
+    
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+.header img{
+    width: 110px;
+    text-align: right;
+}
+.list li{
+    list-style-type: none;
+    display: inline;
+    padding: 10px;  
+    font-size: 15px;
+}
+.list li :hover{
+    cursor: pointer;
+}
+.list li a{
+    text-decoration: none;
+    color: black;
+}
+.desc{
+    margin: 0%;
+    text-align: center;
+    padding: 10%;
+    
+    background-image:linear-gradient(to bottom,rgba(0, 0, 0, 0.5),rgb(0 0 0/00)),url(photos/background1.jpg);
+    font-family: 'Caveat', cursive;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Monoton', cursive;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 50;
+    color: rgb(0, 0, 0);
+}
+.desc h1{
+    font-size: 30px;
+    padding-top: 2%;
+}
+.desc img{
+    padding: 0%;
+    width: 40%;
+}
+.container1{
+    display: flex;
+    flex-direction: row;
+}
+.container1 img{
+    width: 100%;
+    padding: 4%;
+    border-radius: 20px;
+}
+
+  
+.abt {
+    margin-left: 15%;
+    margin-top: 10%;
+    margin-bottom: 6%; 
+    width: 50%;
+    text-align: left;
+    font-size: 30px;
+    font-family: 'Orbitron', sans-serif;
+}
+.abt h3{
+    color: rgb(10, 69, 136);
+}
+.abt p{
+    color: rgb(148, 134, 55);
+}
+  
+.image img{
+    margin-top: 20%;
+    margin-bottom: 6%;
+    width: 300px;
+    text-align: right;
+    border-radius: 20px;
+}
+.desc1{
+    margin: 0%;
+    text-align: center;
+    padding: 12%;
+    color: rgb(215, 224, 255);
+    font-family: 'Josefin Slab', serif;
+    font-size: 30px;
+    background-image:linear-gradient(to bottom,rgb(0 0 0/0.5),rgb(0 0 0/00)),url(photos/cam.jpg);
+    border-radius: 40px;
+}
+.title1 h1{
+    text-align: center;
+    text-decoration: underline wavy black;
+    padding: 2%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+.gallery {
+    display: grid;
+    grid-template-columns:3fr;
+    grid-template-rows: 3fr;
+    align-items: center;
+    align-content: start;
+
+    padding: 2%;
+    border-radius: 40px;
+}
+  
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+.gal-link p{
+    text-align: left;
+    font-size: larger;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 5%;
+}
+.container img{
+    width: 100%;
+    border-radius: 12px;
+    
+}
+.sec h1{
+    font-size: 60px;
+    font-family: 'Rampart One', cursive;
+    text-align: center;
+    padding: 3%;
+    
+}
